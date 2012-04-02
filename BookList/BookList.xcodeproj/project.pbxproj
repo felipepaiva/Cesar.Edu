@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C05B31F15272D4B007D7C7E /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B31E15272D4B007D7C7E /* BlueViewController.m */; };
+		3C05B32C15273622007D7C7E /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B32B15273622007D7C7E /* RedViewController.m */; };
+		3C05B32F152745B4007D7C7E /* BookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B32E152745B4007D7C7E /* BookTableViewController.m */; };
+		3C05B332152746DB007D7C7E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B331152746DB007D7C7E /* Book.m */; };
+		3C05B3391527634F007D7C7E /* BookCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B3381527634F007D7C7E /* BookCellViewController.m */; };
+		3C362F091527240B0068E560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C362F081527240B0068E560 /* UIKit.framework */; };
+		3C362F0B1527240B0068E560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C362F0A1527240B0068E560 /* Foundation.framework */; };
+		3C362F0D1527240B0068E560 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C362F0C1527240B0068E560 /* CoreGraphics.framework */; };
+		3C362F131527240B0068E560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C362F111527240B0068E560 /* InfoPlist.strings */; };
+		3C362F151527240B0068E560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C362F141527240B0068E560 /* main.m */; };
+		3C362F191527240B0068E560 /* EduAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C362F181527240B0068E560 /* EduAppDelegate.m */; };
+		3C362F1C1527240B0068E560 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C362F1A1527240B0068E560 /* MainStoryboard.storyboard */; };
+		3C362F1F1527240B0068E560 /* EduViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C362F1E1527240B0068E560 /* EduViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C05B31D15272D4B007D7C7E /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		3C05B31E15272D4B007D7C7E /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		3C05B32A15273622007D7C7E /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		3C05B32B15273622007D7C7E /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		3C05B32D152745B4007D7C7E /* BookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewController.h; sourceTree = "<group>"; };
+		3C05B32E152745B4007D7C7E /* BookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewController.m; sourceTree = "<group>"; };
+		3C05B330152746DB007D7C7E /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		3C05B331152746DB007D7C7E /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		3C05B3371527634F007D7C7E /* BookCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCellViewController.h; sourceTree = "<group>"; };
+		3C05B3381527634F007D7C7E /* BookCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCellViewController.m; sourceTree = "<group>"; };
+		3C362F041527240B0068E560 /* BookList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C362F081527240B0068E560 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C362F0A1527240B0068E560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C362F0C1527240B0068E560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C362F101527240B0068E560 /* BookList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookList-Info.plist"; sourceTree = "<group>"; };
+		3C362F121527240B0068E560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C362F141527240B0068E560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C362F161527240B0068E560 /* BookList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookList-Prefix.pch"; sourceTree = "<group>"; };
+		3C362F171527240B0068E560 /* EduAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduAppDelegate.h; sourceTree = "<group>"; };
+		3C362F181527240B0068E560 /* EduAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduAppDelegate.m; sourceTree = "<group>"; };
+		3C362F1B1527240B0068E560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3C362F1D1527240B0068E560 /* EduViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduViewController.h; sourceTree = "<group>"; };
+		3C362F1E1527240B0068E560 /* EduViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C362F011527240B0068E560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C362F091527240B0068E560 /* UIKit.framework in Frameworks */,
+				3C362F0B1527240B0068E560 /* Foundation.framework in Frameworks */,
+				3C362F0D1527240B0068E560 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C362EF91527240B0068E560 = {
+			isa = PBXGroup;
+			children = (
+				3C362F0E1527240B0068E560 /* BookList */,
+				3C362F071527240B0068E560 /* Frameworks */,
+				3C362F051527240B0068E560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C362F051527240B0068E560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C362F041527240B0068E560 /* BookList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C362F071527240B0068E560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C362F081527240B0068E560 /* UIKit.framework */,
+				3C362F0A1527240B0068E560 /* Foundation.framework */,
+				3C362F0C1527240B0068E560 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C362F0E1527240B0068E560 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				3C362F171527240B0068E560 /* EduAppDelegate.h */,
+				3C362F181527240B0068E560 /* EduAppDelegate.m */,
+				3C362F1A1527240B0068E560 /* MainStoryboard.storyboard */,
+				3C362F1D1527240B0068E560 /* EduViewController.h */,
+				3C362F1E1527240B0068E560 /* EduViewController.m */,
+				3C362F0F1527240B0068E560 /* Supporting Files */,
+				3C05B31D15272D4B007D7C7E /* BlueViewController.h */,
+				3C05B31E15272D4B007D7C7E /* BlueViewController.m */,
+				3C05B32A15273622007D7C7E /* RedViewController.h */,
+				3C05B32B15273622007D7C7E /* RedViewController.m */,
+				3C05B32D152745B4007D7C7E /* BookTableViewController.h */,
+				3C05B32E152745B4007D7C7E /* BookTableViewController.m */,
+				3C05B330152746DB007D7C7E /* Book.h */,
+				3C05B331152746DB007D7C7E /* Book.m */,
+				3C05B3371527634F007D7C7E /* BookCellViewController.h */,
+				3C05B3381527634F007D7C7E /* BookCellViewController.m */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		3C362F0F1527240B0068E560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C362F101527240B0068E560 /* BookList-Info.plist */,
+				3C362F111527240B0068E560 /* InfoPlist.strings */,
+				3C362F141527240B0068E560 /* main.m */,
+				3C362F161527240B0068E560 /* BookList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C362F031527240B0068E560 /* BookList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C362F221527240B0068E560 /* Build configuration list for PBXNativeTarget "BookList" */;
+			buildPhases = (
+				3C362F001527240B0068E560 /* Sources */,
+				3C362F011527240B0068E560 /* Frameworks */,
+				3C362F021527240B0068E560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookList;
+			productName = BookList;
+			productReference = 3C362F041527240B0068E560 /* BookList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C362EFB1527240B0068E560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edu;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile Solutions";
+			};
+			buildConfigurationList = 3C362EFE1527240B0068E560 /* Build configuration list for PBXProject "BookList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C362EF91527240B0068E560;
+			productRefGroup = 3C362F051527240B0068E560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C362F031527240B0068E560 /* BookList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C362F021527240B0068E560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C362F131527240B0068E560 /* InfoPlist.strings in Resources */,
+				3C362F1C1527240B0068E560 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C362F001527240B0068E560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C362F151527240B0068E560 /* main.m in Sources */,
+				3C362F191527240B0068E560 /* EduAppDelegate.m in Sources */,
+				3C362F1F1527240B0068E560 /* EduViewController.m in Sources */,
+				3C05B31F15272D4B007D7C7E /* BlueViewController.m in Sources */,
+				3C05B32C15273622007D7C7E /* RedViewController.m in Sources */,
+				3C05B32F152745B4007D7C7E /* BookTableViewController.m in Sources */,
+				3C05B332152746DB007D7C7E /* Book.m in Sources */,
+				3C05B3391527634F007D7C7E /* BookCellViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C362F111527240B0068E560 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C362F121527240B0068E560 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C362F1A1527240B0068E560 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C362F1B1527240B0068E560 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C362F201527240B0068E560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C362F211527240B0068E560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				"SDKROOT[arch=*]" = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C362F231527240B0068E560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookList/BookList-Prefix.pch";
+				INFOPLIST_FILE = "BookList/BookList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C362F241527240B0068E560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookList/BookList-Prefix.pch";
+				INFOPLIST_FILE = "BookList/BookList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C362EFE1527240B0068E560 /* Build configuration list for PBXProject "BookList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C362F201527240B0068E560 /* Debug */,
+				3C362F211527240B0068E560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C362F221527240B0068E560 /* Build configuration list for PBXNativeTarget "BookList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C362F231527240B0068E560 /* Debug */,
+				3C362F241527240B0068E560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C362EFB1527240B0068E560 /* Project object */;
+}

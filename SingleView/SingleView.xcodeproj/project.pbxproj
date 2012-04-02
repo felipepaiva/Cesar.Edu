@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C061910151D32A10010D436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06190F151D32A10010D436 /* UIKit.framework */; };
+		3C061912151D32A10010D436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C061911151D32A10010D436 /* Foundation.framework */; };
+		3C061914151D32A10010D436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C061913151D32A10010D436 /* CoreGraphics.framework */; };
+		3C06191A151D32A10010D436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C061918151D32A10010D436 /* InfoPlist.strings */; };
+		3C06191C151D32A10010D436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06191B151D32A10010D436 /* main.m */; };
+		3C061920151D32A10010D436 /* EduAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06191F151D32A10010D436 /* EduAppDelegate.m */; };
+		3C061923151D32A10010D436 /* EduViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C061922151D32A10010D436 /* EduViewController.m */; };
+		3C061926151D32A10010D436 /* EduViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C061924151D32A10010D436 /* EduViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C06190B151D32A10010D436 /* SingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C06190F151D32A10010D436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C061911151D32A10010D436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C061913151D32A10010D436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C061917151D32A10010D436 /* SingleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleView-Info.plist"; sourceTree = "<group>"; };
+		3C061919151D32A10010D436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C06191B151D32A10010D436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C06191D151D32A10010D436 /* SingleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingleView-Prefix.pch"; sourceTree = "<group>"; };
+		3C06191E151D32A10010D436 /* EduAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduAppDelegate.h; sourceTree = "<group>"; };
+		3C06191F151D32A10010D436 /* EduAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduAppDelegate.m; sourceTree = "<group>"; };
+		3C061921151D32A10010D436 /* EduViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduViewController.h; sourceTree = "<group>"; };
+		3C061922151D32A10010D436 /* EduViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduViewController.m; sourceTree = "<group>"; };
+		3C061925151D32A10010D436 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EduViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C061908151D32A10010D436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C061910151D32A10010D436 /* UIKit.framework in Frameworks */,
+				3C061912151D32A10010D436 /* Foundation.framework in Frameworks */,
+				3C061914151D32A10010D436 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C061900151D32A10010D436 = {
+			isa = PBXGroup;
+			children = (
+				3C061915151D32A10010D436 /* SingleView */,
+				3C06190E151D32A10010D436 /* Frameworks */,
+				3C06190C151D32A10010D436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C06190C151D32A10010D436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C06190B151D32A10010D436 /* SingleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C06190E151D32A10010D436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C06190F151D32A10010D436 /* UIKit.framework */,
+				3C061911151D32A10010D436 /* Foundation.framework */,
+				3C061913151D32A10010D436 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C061915151D32A10010D436 /* SingleView */ = {
+			isa = PBXGroup;
+			children = (
+				3C06191E151D32A10010D436 /* EduAppDelegate.h */,
+				3C06191F151D32A10010D436 /* EduAppDelegate.m */,
+				3C061921151D32A10010D436 /* EduViewController.h */,
+				3C061922151D32A10010D436 /* EduViewController.m */,
+				3C061924151D32A10010D436 /* EduViewController.xib */,
+				3C061916151D32A10010D436 /* Supporting Files */,
+			);
+			path = SingleView;
+			sourceTree = "<group>";
+		};
+		3C061916151D32A10010D436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C061917151D32A10010D436 /* SingleView-Info.plist */,
+				3C061918151D32A10010D436 /* InfoPlist.strings */,
+				3C06191B151D32A10010D436 /* main.m */,
+				3C06191D151D32A10010D436 /* SingleView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C06190A151D32A10010D436 /* SingleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C061929151D32A10010D436 /* Build configuration list for PBXNativeTarget "SingleView" */;
+			buildPhases = (
+				3C061907151D32A10010D436 /* Sources */,
+				3C061908151D32A10010D436 /* Frameworks */,
+				3C061909151D32A10010D436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleView;
+			productName = SingleView;
+			productReference = 3C06190B151D32A10010D436 /* SingleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C061902151D32A10010D436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edu;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile Solutions";
+			};
+			buildConfigurationList = 3C061905151D32A10010D436 /* Build configuration list for PBXProject "SingleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C061900151D32A10010D436;
+			productRefGroup = 3C06190C151D32A10010D436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C06190A151D32A10010D436 /* SingleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C061909151D32A10010D436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06191A151D32A10010D436 /* InfoPlist.strings in Resources */,
+				3C061926151D32A10010D436 /* EduViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C061907151D32A10010D436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06191C151D32A10010D436 /* main.m in Sources */,
+				3C061920151D32A10010D436 /* EduAppDelegate.m in Sources */,
+				3C061923151D32A10010D436 /* EduViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C061918151D32A10010D436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C061919151D32A10010D436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C061924151D32A10010D436 /* EduViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C061925151D32A10010D436 /* en */,
+			);
+			name = EduViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C061927151D32A10010D436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C061928151D32A10010D436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C06192A151D32A10010D436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleView/SingleView-Prefix.pch";
+				INFOPLIST_FILE = "SingleView/SingleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C06192B151D32A10010D436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleView/SingleView-Prefix.pch";
+				INFOPLIST_FILE = "SingleView/SingleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C061905151D32A10010D436 /* Build configuration list for PBXProject "SingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C061927151D32A10010D436 /* Debug */,
+				3C061928151D32A10010D436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C061929151D32A10010D436 /* Build configuration list for PBXNativeTarget "SingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C06192A151D32A10010D436 /* Debug */,
+				3C06192B151D32A10010D436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C061902151D32A10010D436 /* Project object */;
+}

@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFECBF21514FE3600061BF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECBF11514FE3600061BF7 /* UIKit.framework */; };
+		3CFECBF41514FE3600061BF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECBF31514FE3600061BF7 /* Foundation.framework */; };
+		3CFECBF61514FE3600061BF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECBF51514FE3600061BF7 /* CoreGraphics.framework */; };
+		3CFECBFC1514FE3600061BF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CFECBFA1514FE3600061BF7 /* InfoPlist.strings */; };
+		3CFECBFE1514FE3600061BF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECBFD1514FE3600061BF7 /* main.m */; };
+		3CFECC021514FE3600061BF7 /* TvControleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC011514FE3600061BF7 /* TvControleAppDelegate.m */; };
+		3CFECC0A1514FE5100061BF7 /* Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC091514FE5100061BF7 /* Control.m */; };
+		3CFECC0D151501A700061BF7 /* Tv.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC0C151501A700061BF7 /* Tv.m */; };
+		3CFECC10151505B400061BF7 /* NSString+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC0F151505B400061BF7 /* NSString+reverse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CFECBED1514FE3600061BF7 /* UniversalControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFECBF11514FE3600061BF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CFECBF31514FE3600061BF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CFECBF51514FE3600061BF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CFECBF91514FE3600061BF7 /* UniversalControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalControl-Info.plist"; sourceTree = "<group>"; };
+		3CFECBFB1514FE3600061BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CFECBFD1514FE3600061BF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFECBFF1514FE3600061BF7 /* UniversalControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversalControl-Prefix.pch"; sourceTree = "<group>"; };
+		3CFECC001514FE3600061BF7 /* TvControleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvControleAppDelegate.h; sourceTree = "<group>"; };
+		3CFECC011514FE3600061BF7 /* TvControleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvControleAppDelegate.m; sourceTree = "<group>"; };
+		3CFECC081514FE5100061BF7 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		3CFECC091514FE5100061BF7 /* Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Control.m; sourceTree = "<group>"; };
+		3CFECC0B151501A700061BF7 /* Tv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tv.h; sourceTree = "<group>"; };
+		3CFECC0C151501A700061BF7 /* Tv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tv.m; sourceTree = "<group>"; };
+		3CFECC0E151505B400061BF7 /* NSString+reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+reverse.h"; sourceTree = "<group>"; };
+		3CFECC0F151505B400061BF7 /* NSString+reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+reverse.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFECBEA1514FE3600061BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECBF21514FE3600061BF7 /* UIKit.framework in Frameworks */,
+				3CFECBF41514FE3600061BF7 /* Foundation.framework in Frameworks */,
+				3CFECBF61514FE3600061BF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFECBE21514FE3600061BF7 = {
+			isa = PBXGroup;
+			children = (
+				3CFECC0E151505B400061BF7 /* NSString+reverse.h */,
+				3CFECC0F151505B400061BF7 /* NSString+reverse.m */,
+				3CFECC0B151501A700061BF7 /* Tv.h */,
+				3CFECC0C151501A700061BF7 /* Tv.m */,
+				3CFECC081514FE5100061BF7 /* Control.h */,
+				3CFECC091514FE5100061BF7 /* Control.m */,
+				3CFECBF71514FE3600061BF7 /* UniversalControl */,
+				3CFECBF01514FE3600061BF7 /* Frameworks */,
+				3CFECBEE1514FE3600061BF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFECBEE1514FE3600061BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECBED1514FE3600061BF7 /* UniversalControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFECBF01514FE3600061BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECBF11514FE3600061BF7 /* UIKit.framework */,
+				3CFECBF31514FE3600061BF7 /* Foundation.framework */,
+				3CFECBF51514FE3600061BF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFECBF71514FE3600061BF7 /* UniversalControl */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECC001514FE3600061BF7 /* TvControleAppDelegate.h */,
+				3CFECC011514FE3600061BF7 /* TvControleAppDelegate.m */,
+				3CFECBF81514FE3600061BF7 /* Supporting Files */,
+			);
+			path = UniversalControl;
+			sourceTree = "<group>";
+		};
+		3CFECBF81514FE3600061BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECBF91514FE3600061BF7 /* UniversalControl-Info.plist */,
+				3CFECBFA1514FE3600061BF7 /* InfoPlist.strings */,
+				3CFECBFD1514FE3600061BF7 /* main.m */,
+				3CFECBFF1514FE3600061BF7 /* UniversalControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFECBEC1514FE3600061BF7 /* UniversalControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFECC051514FE3600061BF7 /* Build configuration list for PBXNativeTarget "UniversalControl" */;
+			buildPhases = (
+				3CFECBE91514FE3600061BF7 /* Sources */,
+				3CFECBEA1514FE3600061BF7 /* Frameworks */,
+				3CFECBEB1514FE3600061BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalControl;
+			productName = UniversalControl;
+			productReference = 3CFECBED1514FE3600061BF7 /* UniversalControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFECBE41514FE3600061BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TvControle;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile";
+			};
+			buildConfigurationList = 3CFECBE71514FE3600061BF7 /* Build configuration list for PBXProject "UniversalControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CFECBE21514FE3600061BF7;
+			productRefGroup = 3CFECBEE1514FE3600061BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFECBEC1514FE3600061BF7 /* UniversalControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFECBEB1514FE3600061BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECBFC1514FE3600061BF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFECBE91514FE3600061BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECBFE1514FE3600061BF7 /* main.m in Sources */,
+				3CFECC021514FE3600061BF7 /* TvControleAppDelegate.m in Sources */,
+				3CFECC0A1514FE5100061BF7 /* Control.m in Sources */,
+				3CFECC0D151501A700061BF7 /* Tv.m in Sources */,
+				3CFECC10151505B400061BF7 /* NSString+reverse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CFECBFA1514FE3600061BF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFECBFB1514FE3600061BF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFECC031514FE3600061BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CFECC041514FE3600061BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFECC061514FE3600061BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalControl/UniversalControl-Prefix.pch";
+				INFOPLIST_FILE = "UniversalControl/UniversalControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CFECC071514FE3600061BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalControl/UniversalControl-Prefix.pch";
+				INFOPLIST_FILE = "UniversalControl/UniversalControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFECBE71514FE3600061BF7 /* Build configuration list for PBXProject "UniversalControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFECC031514FE3600061BF7 /* Debug */,
+				3CFECC041514FE3600061BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFECC051514FE3600061BF7 /* Build configuration list for PBXNativeTarget "UniversalControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFECC061514FE3600061BF7 /* Debug */,
+				3CFECC071514FE3600061BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFECBE41514FE3600061BF7 /* Project object */;
+}

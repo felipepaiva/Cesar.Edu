@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="no3-YE-hFP">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="KAS-n9-xMd">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5js-9a-7ub" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="no3-YE-hFP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Usp-mt-drN">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hLH-NJ-arc" kind="relationship" relationship="viewControllers" id="FXa-fn-KYs"/>
+                        <segue destination="5HP-D2-tvQ" kind="relationship" relationship="viewControllers" id="xki-GE-3MS"/>
+                        <segue destination="3Gp-yZ-HOL" kind="relationship" relationship="viewControllers" id="d9L-RO-KA9"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="145" y="206"/>
+        </scene>
+        <!--Pratos Quentes View Controller-->
+        <scene sceneID="Imt-LE-Y8Y">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9t-rb-gBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="UXQ-NI-SQy" customClass="PratosQuentesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="29" sectionHeaderHeight="22" sectionFooterHeight="22" id="Oh3-yn-yuX">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellPratoQuente" rowHeight="29" id="rQX-1I-op6" customClass="PratosQuentesTableCellController">
+                                <rect key="frame" x="0.0" y="22" width="320" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="28"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nome:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ZMj-bu-r7Q">
+                                            <rect key="frame" x="10" y="2" width="51" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="k7G-5b-Zzp">
+                                            <rect key="frame" x="61" y="2" width="248" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="lblNome" destination="k7G-5b-Zzp" id="JfA-Sh-3nM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UXQ-NI-SQy" id="rm2-l0-09c"/>
+                            <outlet property="delegate" destination="UXQ-NI-SQy" id="PcB-pG-mCZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fMn-RX-zt6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="pV8-HH-Yl4">
+                            <connections>
+                                <segue destination="iNC-Lt-mHh" kind="push" id="zhP-SN-6pB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1257" y="-295"/>
+        </scene>
+        <!--Adicionar Prato View Controller - Adicionar Prato-->
+        <scene sceneID="uGo-r7-tRo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7T-bp-6qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="iNC-Lt-mHh" customClass="AdicionarPratoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IcH-6f-Ra5">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Adicionar Prato" id="M0s-ey-97T">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="7Nk-e0-Tap">
+                            <connections>
+                                <action selector="btnCancel:" destination="iNC-Lt-mHh" id="HIk-Rn-xNQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnCancel" destination="7Nk-e0-Tap" id="HBc-A0-6VG"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1649" y="-295"/>
+        </scene>
+        <!--Detalhe Prato View Controller-->
+        <scene sceneID="O6U-vK-MwT">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIC-hz-Vm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="detalheView" id="4hd-Mc-GeV" customClass="DetalhePratoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oQ7-Zh-oGL">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="8AS-wu-7nH">
+                                <rect key="frame" x="85" y="118" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="t90-cP-7wR">
+                                <rect key="frame" x="85" y="160" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="6YM-Bq-JOg">
+                                <rect key="frame" x="85" y="206" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblDetalhe" destination="t90-cP-7wR" id="BrQ-Cl-oC7"/>
+                        <outlet property="lblNome" destination="8AS-wu-7nH" id="ucZ-2V-cfx"/>
+                        <outlet property="lblPreco" destination="6YM-Bq-JOg" id="mTB-vd-H3N"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1161" y="337"/>
+        </scene>
+        <!--Pratos Frios View Controller - Pratos Frios-->
+        <scene sceneID="Xwt-XN-rYw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ohm-jN-LHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="5HP-D2-tvQ" customClass="PratosFriosViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Aif-cr-XEH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="NpL-zB-Jmp">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5HP-D2-tvQ" id="9qx-oO-MD6"/>
+                            <outlet property="delegate" destination="5HP-D2-tvQ" id="FrD-Fb-BmN"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Pratos Frios" id="cN8-gL-r8S"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="731" y="317"/>
+        </scene>
+        <!--Sobremesas View Controller - Sobremesas-->
+        <scene sceneID="Wmj-aM-i0f">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IkV-ui-CAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="3Gp-yZ-HOL" customClass="SobremesasViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CQv-nS-kd6">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="SRC-CO-AhO">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3Gp-yZ-HOL" id="mIm-En-S93"/>
+                            <outlet property="delegate" destination="3Gp-yZ-HOL" id="HCu-Pd-Zfj"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Sobremesas" id="7Qt-8I-9yU"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="731" y="901"/>
+        </scene>
+        <!--Navigation Controller - Pratos Quentes-->
+        <scene sceneID="nL6-Nq-M7W">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LTg-n9-Rph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="hLH-NJ-arc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pratos Quentes" id="ZmC-Cn-jei"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="7gL-bA-42c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UXQ-NI-SQy" kind="relationship" relationship="rootViewController" id="uop-yH-FOc"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="731" y="-295"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="AdicionarPratoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AdicionarPratoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="btnCancel" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
+        <class className="DetalhePratoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetalhePratoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblDetalhe" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblNome" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblPreco" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PratosFriosViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PratosFriosViewController.h"/>
+        </class>
+        <class className="PratosQuentesTableCellController" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PratosQuentesTableCellController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblNome" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PratosQuentesViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PratosQuentesViewController.h"/>
+        </class>
+        <class className="SobremesasViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SobremesasViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

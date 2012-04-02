@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFECC2115150C6E00061BF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECC2015150C6E00061BF7 /* UIKit.framework */; };
+		3CFECC2315150C6E00061BF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECC2215150C6E00061BF7 /* Foundation.framework */; };
+		3CFECC2515150C6E00061BF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFECC2415150C6E00061BF7 /* CoreGraphics.framework */; };
+		3CFECC2B15150C6E00061BF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CFECC2915150C6E00061BF7 /* InfoPlist.strings */; };
+		3CFECC2D15150C6E00061BF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC2C15150C6E00061BF7 /* main.m */; };
+		3CFECC3115150C6E00061BF7 /* EduAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC3015150C6E00061BF7 /* EduAppDelegate.m */; };
+		3CFECC3415150C6E00061BF7 /* EduViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECC3315150C6E00061BF7 /* EduViewController.m */; };
+		3CFECC3715150C6E00061BF7 /* EduViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFECC3515150C6E00061BF7 /* EduViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CFECC1C15150C6E00061BF7 /* MyFirstView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFECC2015150C6E00061BF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CFECC2215150C6E00061BF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CFECC2415150C6E00061BF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CFECC2815150C6E00061BF7 /* MyFirstView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstView-Info.plist"; sourceTree = "<group>"; };
+		3CFECC2A15150C6E00061BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CFECC2C15150C6E00061BF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFECC2E15150C6E00061BF7 /* MyFirstView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstView-Prefix.pch"; sourceTree = "<group>"; };
+		3CFECC2F15150C6E00061BF7 /* EduAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduAppDelegate.h; sourceTree = "<group>"; };
+		3CFECC3015150C6E00061BF7 /* EduAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduAppDelegate.m; sourceTree = "<group>"; };
+		3CFECC3215150C6E00061BF7 /* EduViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduViewController.h; sourceTree = "<group>"; };
+		3CFECC3315150C6E00061BF7 /* EduViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduViewController.m; sourceTree = "<group>"; };
+		3CFECC3615150C6E00061BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EduViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFECC1915150C6E00061BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECC2115150C6E00061BF7 /* UIKit.framework in Frameworks */,
+				3CFECC2315150C6E00061BF7 /* Foundation.framework in Frameworks */,
+				3CFECC2515150C6E00061BF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFECC1115150C6E00061BF7 = {
+			isa = PBXGroup;
+			children = (
+				3CFECC2615150C6E00061BF7 /* MyFirstView */,
+				3CFECC1F15150C6E00061BF7 /* Frameworks */,
+				3CFECC1D15150C6E00061BF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFECC1D15150C6E00061BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECC1C15150C6E00061BF7 /* MyFirstView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFECC1F15150C6E00061BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECC2015150C6E00061BF7 /* UIKit.framework */,
+				3CFECC2215150C6E00061BF7 /* Foundation.framework */,
+				3CFECC2415150C6E00061BF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFECC2615150C6E00061BF7 /* MyFirstView */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECC2F15150C6E00061BF7 /* EduAppDelegate.h */,
+				3CFECC3015150C6E00061BF7 /* EduAppDelegate.m */,
+				3CFECC3215150C6E00061BF7 /* EduViewController.h */,
+				3CFECC3315150C6E00061BF7 /* EduViewController.m */,
+				3CFECC3515150C6E00061BF7 /* EduViewController.xib */,
+				3CFECC2715150C6E00061BF7 /* Supporting Files */,
+			);
+			path = MyFirstView;
+			sourceTree = "<group>";
+		};
+		3CFECC2715150C6E00061BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CFECC2815150C6E00061BF7 /* MyFirstView-Info.plist */,
+				3CFECC2915150C6E00061BF7 /* InfoPlist.strings */,
+				3CFECC2C15150C6E00061BF7 /* main.m */,
+				3CFECC2E15150C6E00061BF7 /* MyFirstView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFECC1B15150C6E00061BF7 /* MyFirstView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFECC3A15150C6E00061BF7 /* Build configuration list for PBXNativeTarget "MyFirstView" */;
+			buildPhases = (
+				3CFECC1815150C6E00061BF7 /* Sources */,
+				3CFECC1915150C6E00061BF7 /* Frameworks */,
+				3CFECC1A15150C6E00061BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstView;
+			productName = MyFirstView;
+			productReference = 3CFECC1C15150C6E00061BF7 /* MyFirstView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFECC1315150C6E00061BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edu;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile";
+			};
+			buildConfigurationList = 3CFECC1615150C6E00061BF7 /* Build configuration list for PBXProject "MyFirstView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CFECC1115150C6E00061BF7;
+			productRefGroup = 3CFECC1D15150C6E00061BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFECC1B15150C6E00061BF7 /* MyFirstView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFECC1A15150C6E00061BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECC2B15150C6E00061BF7 /* InfoPlist.strings in Resources */,
+				3CFECC3715150C6E00061BF7 /* EduViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFECC1815150C6E00061BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFECC2D15150C6E00061BF7 /* main.m in Sources */,
+				3CFECC3115150C6E00061BF7 /* EduAppDelegate.m in Sources */,
+				3CFECC3415150C6E00061BF7 /* EduViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CFECC2915150C6E00061BF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFECC2A15150C6E00061BF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CFECC3515150C6E00061BF7 /* EduViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFECC3615150C6E00061BF7 /* en */,
+			);
+			name = EduViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFECC3815150C6E00061BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CFECC3915150C6E00061BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFECC3B15150C6E00061BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstView/MyFirstView-Prefix.pch";
+				INFOPLIST_FILE = "MyFirstView/MyFirstView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CFECC3C15150C6E00061BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstView/MyFirstView-Prefix.pch";
+				INFOPLIST_FILE = "MyFirstView/MyFirstView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFECC1615150C6E00061BF7 /* Build configuration list for PBXProject "MyFirstView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFECC3815150C6E00061BF7 /* Debug */,
+				3CFECC3915150C6E00061BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFECC3A15150C6E00061BF7 /* Build configuration list for PBXNativeTarget "MyFirstView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFECC3B15150C6E00061BF7 /* Debug */,
+				3CFECC3C15150C6E00061BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFECC1315150C6E00061BF7 /* Project object */;
+}

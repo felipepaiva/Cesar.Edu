@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C983E571513F6F100592C97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C983E561513F6F100592C97 /* UIKit.framework */; };
+		3C983E591513F6F100592C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C983E581513F6F100592C97 /* Foundation.framework */; };
+		3C983E5B1513F6F100592C97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C983E5A1513F6F100592C97 /* CoreGraphics.framework */; };
+		3C983E611513F6F100592C97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C983E5F1513F6F100592C97 /* InfoPlist.strings */; };
+		3C983E631513F6F100592C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C983E621513F6F100592C97 /* main.m */; };
+		3C983E671513F6F100592C97 /* Aula02AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C983E661513F6F100592C97 /* Aula02AppDelegate.m */; };
+		3C983E6F1513F76D00592C97 /* SampleReleaseRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C983E6E1513F76D00592C97 /* SampleReleaseRetain.m */; };
+		3C983E721513F81C00592C97 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C983E711513F81C00592C97 /* ClassA.m */; };
+		3C983E7915140BB800592C97 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C983E7815140BB800592C97 /* ClassB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C983E521513F6F100592C97 /* Aula02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C983E561513F6F100592C97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C983E581513F6F100592C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C983E5A1513F6F100592C97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C983E5E1513F6F100592C97 /* Aula02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aula02-Info.plist"; sourceTree = "<group>"; };
+		3C983E601513F6F100592C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C983E621513F6F100592C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C983E641513F6F100592C97 /* Aula02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aula02-Prefix.pch"; sourceTree = "<group>"; };
+		3C983E651513F6F100592C97 /* Aula02AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aula02AppDelegate.h; sourceTree = "<group>"; };
+		3C983E661513F6F100592C97 /* Aula02AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula02AppDelegate.m; sourceTree = "<group>"; };
+		3C983E6D1513F76D00592C97 /* SampleReleaseRetain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleReleaseRetain.h; sourceTree = "<group>"; };
+		3C983E6E1513F76D00592C97 /* SampleReleaseRetain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleReleaseRetain.m; sourceTree = "<group>"; };
+		3C983E701513F81C00592C97 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		3C983E711513F81C00592C97 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		3C983E7715140BB800592C97 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		3C983E7815140BB800592C97 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C983E4F1513F6F100592C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C983E571513F6F100592C97 /* UIKit.framework in Frameworks */,
+				3C983E591513F6F100592C97 /* Foundation.framework in Frameworks */,
+				3C983E5B1513F6F100592C97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C983E471513F6F100592C97 = {
+			isa = PBXGroup;
+			children = (
+				3C983E5C1513F6F100592C97 /* Aula02 */,
+				3C983E551513F6F100592C97 /* Frameworks */,
+				3C983E531513F6F100592C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C983E531513F6F100592C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C983E521513F6F100592C97 /* Aula02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C983E551513F6F100592C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C983E561513F6F100592C97 /* UIKit.framework */,
+				3C983E581513F6F100592C97 /* Foundation.framework */,
+				3C983E5A1513F6F100592C97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C983E5C1513F6F100592C97 /* Aula02 */ = {
+			isa = PBXGroup;
+			children = (
+				3C983E651513F6F100592C97 /* Aula02AppDelegate.h */,
+				3C983E661513F6F100592C97 /* Aula02AppDelegate.m */,
+				3C983E5D1513F6F100592C97 /* Supporting Files */,
+				3C983E6D1513F76D00592C97 /* SampleReleaseRetain.h */,
+				3C983E6E1513F76D00592C97 /* SampleReleaseRetain.m */,
+				3C983E701513F81C00592C97 /* ClassA.h */,
+				3C983E711513F81C00592C97 /* ClassA.m */,
+				3C983E7715140BB800592C97 /* ClassB.h */,
+				3C983E7815140BB800592C97 /* ClassB.m */,
+			);
+			path = Aula02;
+			sourceTree = "<group>";
+		};
+		3C983E5D1513F6F100592C97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C983E5E1513F6F100592C97 /* Aula02-Info.plist */,
+				3C983E5F1513F6F100592C97 /* InfoPlist.strings */,
+				3C983E621513F6F100592C97 /* main.m */,
+				3C983E641513F6F100592C97 /* Aula02-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C983E511513F6F100592C97 /* Aula02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C983E6A1513F6F100592C97 /* Build configuration list for PBXNativeTarget "Aula02" */;
+			buildPhases = (
+				3C983E4E1513F6F100592C97 /* Sources */,
+				3C983E4F1513F6F100592C97 /* Frameworks */,
+				3C983E501513F6F100592C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula02;
+			productName = Aula02;
+			productReference = 3C983E521513F6F100592C97 /* Aula02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C983E491513F6F100592C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Aula02;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile";
+			};
+			buildConfigurationList = 3C983E4C1513F6F100592C97 /* Build configuration list for PBXProject "Aula02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C983E471513F6F100592C97;
+			productRefGroup = 3C983E531513F6F100592C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C983E511513F6F100592C97 /* Aula02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C983E501513F6F100592C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C983E611513F6F100592C97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C983E4E1513F6F100592C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C983E631513F6F100592C97 /* main.m in Sources */,
+				3C983E671513F6F100592C97 /* Aula02AppDelegate.m in Sources */,
+				3C983E6F1513F76D00592C97 /* SampleReleaseRetain.m in Sources */,
+				3C983E721513F81C00592C97 /* ClassA.m in Sources */,
+				3C983E7915140BB800592C97 /* ClassB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C983E5F1513F6F100592C97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C983E601513F6F100592C97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C983E681513F6F100592C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C983E691513F6F100592C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C983E6B1513F6F100592C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula02/Aula02-Prefix.pch";
+				INFOPLIST_FILE = "Aula02/Aula02-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C983E6C1513F6F100592C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula02/Aula02-Prefix.pch";
+				INFOPLIST_FILE = "Aula02/Aula02-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C983E4C1513F6F100592C97 /* Build configuration list for PBXProject "Aula02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C983E681513F6F100592C97 /* Debug */,
+				3C983E691513F6F100592C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C983E6A1513F6F100592C97 /* Build configuration list for PBXNativeTarget "Aula02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C983E6B1513F6F100592C97 /* Debug */,
+				3C983E6C1513F6F100592C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C983E491513F6F100592C97 /* Project object */;
+}

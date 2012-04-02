@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C06CA40151DEBEB00E6C9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06CA3F151DEBEB00E6C9A0 /* UIKit.framework */; };
+		3C06CA42151DEBEB00E6C9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06CA41151DEBEB00E6C9A0 /* Foundation.framework */; };
+		3C06CA44151DEBEB00E6C9A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C06CA43151DEBEB00E6C9A0 /* CoreGraphics.framework */; };
+		3C06CA4A151DEBEB00E6C9A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C06CA48151DEBEB00E6C9A0 /* InfoPlist.strings */; };
+		3C06CA4C151DEBEB00E6C9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CA4B151DEBEB00E6C9A0 /* main.m */; };
+		3C06CA50151DEBEB00E6C9A0 /* EduAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CA4F151DEBEB00E6C9A0 /* EduAppDelegate.m */; };
+		3C06CA53151DEBEB00E6C9A0 /* EduViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CA52151DEBEB00E6C9A0 /* EduViewController.m */; };
+		3C06CA56151DEBEB00E6C9A0 /* EduViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C06CA54151DEBEB00E6C9A0 /* EduViewController.xib */; };
+		3C06CA8F151E384100E6C9A0 /* Range.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C06CA8E151E384100E6C9A0 /* Range.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C06CA3B151DEBEB00E6C9A0 /* MyPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C06CA3F151DEBEB00E6C9A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C06CA41151DEBEB00E6C9A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C06CA43151DEBEB00E6C9A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C06CA47151DEBEB00E6C9A0 /* MyPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPickerView-Info.plist"; sourceTree = "<group>"; };
+		3C06CA49151DEBEB00E6C9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C06CA4B151DEBEB00E6C9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C06CA4D151DEBEB00E6C9A0 /* MyPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		3C06CA4E151DEBEB00E6C9A0 /* EduAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduAppDelegate.h; sourceTree = "<group>"; };
+		3C06CA4F151DEBEB00E6C9A0 /* EduAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduAppDelegate.m; sourceTree = "<group>"; };
+		3C06CA51151DEBEB00E6C9A0 /* EduViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduViewController.h; sourceTree = "<group>"; };
+		3C06CA52151DEBEB00E6C9A0 /* EduViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduViewController.m; sourceTree = "<group>"; };
+		3C06CA55151DEBEB00E6C9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EduViewController.xib; sourceTree = "<group>"; };
+		3C06CA8E151E384100E6C9A0 /* Range.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Range.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C06CA38151DEBEB00E6C9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06CA40151DEBEB00E6C9A0 /* UIKit.framework in Frameworks */,
+				3C06CA42151DEBEB00E6C9A0 /* Foundation.framework in Frameworks */,
+				3C06CA44151DEBEB00E6C9A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C06CA30151DEBEB00E6C9A0 = {
+			isa = PBXGroup;
+			children = (
+				3C06CA8E151E384100E6C9A0 /* Range.plist */,
+				3C06CA45151DEBEB00E6C9A0 /* MyPickerView */,
+				3C06CA3E151DEBEB00E6C9A0 /* Frameworks */,
+				3C06CA3C151DEBEB00E6C9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C06CA3C151DEBEB00E6C9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C06CA3B151DEBEB00E6C9A0 /* MyPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C06CA3E151DEBEB00E6C9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C06CA3F151DEBEB00E6C9A0 /* UIKit.framework */,
+				3C06CA41151DEBEB00E6C9A0 /* Foundation.framework */,
+				3C06CA43151DEBEB00E6C9A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C06CA45151DEBEB00E6C9A0 /* MyPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3C06CA4E151DEBEB00E6C9A0 /* EduAppDelegate.h */,
+				3C06CA4F151DEBEB00E6C9A0 /* EduAppDelegate.m */,
+				3C06CA51151DEBEB00E6C9A0 /* EduViewController.h */,
+				3C06CA52151DEBEB00E6C9A0 /* EduViewController.m */,
+				3C06CA54151DEBEB00E6C9A0 /* EduViewController.xib */,
+				3C06CA46151DEBEB00E6C9A0 /* Supporting Files */,
+			);
+			path = MyPickerView;
+			sourceTree = "<group>";
+		};
+		3C06CA46151DEBEB00E6C9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C06CA47151DEBEB00E6C9A0 /* MyPickerView-Info.plist */,
+				3C06CA48151DEBEB00E6C9A0 /* InfoPlist.strings */,
+				3C06CA4B151DEBEB00E6C9A0 /* main.m */,
+				3C06CA4D151DEBEB00E6C9A0 /* MyPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C06CA3A151DEBEB00E6C9A0 /* MyPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C06CA59151DEBEB00E6C9A0 /* Build configuration list for PBXNativeTarget "MyPickerView" */;
+			buildPhases = (
+				3C06CA37151DEBEB00E6C9A0 /* Sources */,
+				3C06CA38151DEBEB00E6C9A0 /* Frameworks */,
+				3C06CA39151DEBEB00E6C9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPickerView;
+			productName = MyPickerView;
+			productReference = 3C06CA3B151DEBEB00E6C9A0 /* MyPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C06CA32151DEBEB00E6C9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edu;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile Solutions";
+			};
+			buildConfigurationList = 3C06CA35151DEBEB00E6C9A0 /* Build configuration list for PBXProject "MyPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C06CA30151DEBEB00E6C9A0;
+			productRefGroup = 3C06CA3C151DEBEB00E6C9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C06CA3A151DEBEB00E6C9A0 /* MyPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C06CA39151DEBEB00E6C9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06CA4A151DEBEB00E6C9A0 /* InfoPlist.strings in Resources */,
+				3C06CA56151DEBEB00E6C9A0 /* EduViewController.xib in Resources */,
+				3C06CA8F151E384100E6C9A0 /* Range.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C06CA37151DEBEB00E6C9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06CA4C151DEBEB00E6C9A0 /* main.m in Sources */,
+				3C06CA50151DEBEB00E6C9A0 /* EduAppDelegate.m in Sources */,
+				3C06CA53151DEBEB00E6C9A0 /* EduViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C06CA48151DEBEB00E6C9A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C06CA49151DEBEB00E6C9A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C06CA54151DEBEB00E6C9A0 /* EduViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C06CA55151DEBEB00E6C9A0 /* en */,
+			);
+			name = EduViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C06CA57151DEBEB00E6C9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C06CA58151DEBEB00E6C9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C06CA5A151DEBEB00E6C9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPickerView/MyPickerView-Prefix.pch";
+				INFOPLIST_FILE = "MyPickerView/MyPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C06CA5B151DEBEB00E6C9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPickerView/MyPickerView-Prefix.pch";
+				INFOPLIST_FILE = "MyPickerView/MyPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C06CA35151DEBEB00E6C9A0 /* Build configuration list for PBXProject "MyPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C06CA57151DEBEB00E6C9A0 /* Debug */,
+				3C06CA58151DEBEB00E6C9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C06CA59151DEBEB00E6C9A0 /* Build configuration list for PBXNativeTarget "MyPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C06CA5A151DEBEB00E6C9A0 /* Debug */,
+				3C06CA5B151DEBEB00E6C9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C06CA32151DEBEB00E6C9A0 /* Project object */;
+}

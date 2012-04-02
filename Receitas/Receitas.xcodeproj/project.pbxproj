@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C05B34A15276EC3007D7C7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05B34915276EC3007D7C7E /* UIKit.framework */; };
+		3C05B34C15276EC3007D7C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05B34B15276EC3007D7C7E /* Foundation.framework */; };
+		3C05B34E15276EC3007D7C7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05B34D15276EC3007D7C7E /* CoreGraphics.framework */; };
+		3C05B35415276EC3007D7C7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C05B35215276EC3007D7C7E /* InfoPlist.strings */; };
+		3C05B35615276EC3007D7C7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B35515276EC3007D7C7E /* main.m */; };
+		3C05B35A15276EC3007D7C7E /* EduAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B35915276EC3007D7C7E /* EduAppDelegate.m */; };
+		3C05B35D15276EC3007D7C7E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C05B35B15276EC3007D7C7E /* MainStoryboard.storyboard */; };
+		3C05B36015276EC3007D7C7E /* EduViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B35F15276EC3007D7C7E /* EduViewController.m */; };
+		3C05B3681527707A007D7C7E /* PratosQuentesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B3671527707A007D7C7E /* PratosQuentesViewController.m */; };
+		3C05B36B15277087007D7C7E /* PratosFriosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B36A15277087007D7C7E /* PratosFriosViewController.m */; };
+		3C05B36E152770AA007D7C7E /* SobremesasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B36D152770AA007D7C7E /* SobremesasViewController.m */; };
+		3C05B374152771C8007D7C7E /* PratosQuentesTableCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B373152771C8007D7C7E /* PratosQuentesTableCellController.m */; };
+		3C05B3771527725D007D7C7E /* Prato.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B3761527725D007D7C7E /* Prato.m */; };
+		3C05B37F15277939007D7C7E /* DetalhePratoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B37D15277939007D7C7E /* DetalhePratoViewController.m */; };
+		3C05B38015277939007D7C7E /* DetalhePratoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C05B37E15277939007D7C7E /* DetalhePratoViewController.xib */; };
+		3C05B38315278594007D7C7E /* AdicionarPratoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C05B38215278594007D7C7E /* AdicionarPratoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C05B34515276EC3007D7C7E /* Receitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Receitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C05B34915276EC3007D7C7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C05B34B15276EC3007D7C7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C05B34D15276EC3007D7C7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C05B35115276EC3007D7C7E /* Receitas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Receitas-Info.plist"; sourceTree = "<group>"; };
+		3C05B35315276EC3007D7C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C05B35515276EC3007D7C7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C05B35715276EC3007D7C7E /* Receitas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Receitas-Prefix.pch"; sourceTree = "<group>"; };
+		3C05B35815276EC3007D7C7E /* EduAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduAppDelegate.h; sourceTree = "<group>"; };
+		3C05B35915276EC3007D7C7E /* EduAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduAppDelegate.m; sourceTree = "<group>"; };
+		3C05B35C15276EC3007D7C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3C05B35E15276EC3007D7C7E /* EduViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EduViewController.h; sourceTree = "<group>"; };
+		3C05B35F15276EC3007D7C7E /* EduViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EduViewController.m; sourceTree = "<group>"; };
+		3C05B3661527707A007D7C7E /* PratosQuentesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PratosQuentesViewController.h; sourceTree = "<group>"; };
+		3C05B3671527707A007D7C7E /* PratosQuentesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PratosQuentesViewController.m; sourceTree = "<group>"; };
+		3C05B36915277087007D7C7E /* PratosFriosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PratosFriosViewController.h; sourceTree = "<group>"; };
+		3C05B36A15277087007D7C7E /* PratosFriosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PratosFriosViewController.m; sourceTree = "<group>"; };
+		3C05B36C152770AA007D7C7E /* SobremesasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobremesasViewController.h; sourceTree = "<group>"; };
+		3C05B36D152770AA007D7C7E /* SobremesasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobremesasViewController.m; sourceTree = "<group>"; };
+		3C05B372152771C8007D7C7E /* PratosQuentesTableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PratosQuentesTableCellController.h; sourceTree = "<group>"; };
+		3C05B373152771C8007D7C7E /* PratosQuentesTableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PratosQuentesTableCellController.m; sourceTree = "<group>"; };
+		3C05B3751527725D007D7C7E /* Prato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prato.h; sourceTree = "<group>"; };
+		3C05B3761527725D007D7C7E /* Prato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prato.m; sourceTree = "<group>"; };
+		3C05B37C15277939007D7C7E /* DetalhePratoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhePratoViewController.h; sourceTree = "<group>"; };
+		3C05B37D15277939007D7C7E /* DetalhePratoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhePratoViewController.m; sourceTree = "<group>"; };
+		3C05B37E15277939007D7C7E /* DetalhePratoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhePratoViewController.xib; sourceTree = "<group>"; };
+		3C05B38115278594007D7C7E /* AdicionarPratoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdicionarPratoViewController.h; sourceTree = "<group>"; };
+		3C05B38215278594007D7C7E /* AdicionarPratoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdicionarPratoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C05B34215276EC3007D7C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C05B34A15276EC3007D7C7E /* UIKit.framework in Frameworks */,
+				3C05B34C15276EC3007D7C7E /* Foundation.framework in Frameworks */,
+				3C05B34E15276EC3007D7C7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C05B33A15276EC3007D7C7E = {
+			isa = PBXGroup;
+			children = (
+				3C05B34F15276EC3007D7C7E /* Receitas */,
+				3C05B34815276EC3007D7C7E /* Frameworks */,
+				3C05B34615276EC3007D7C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C05B34615276EC3007D7C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B34515276EC3007D7C7E /* Receitas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C05B34815276EC3007D7C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B34915276EC3007D7C7E /* UIKit.framework */,
+				3C05B34B15276EC3007D7C7E /* Foundation.framework */,
+				3C05B34D15276EC3007D7C7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C05B34F15276EC3007D7C7E /* Receitas */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B38115278594007D7C7E /* AdicionarPratoViewController.h */,
+				3C05B38215278594007D7C7E /* AdicionarPratoViewController.m */,
+				3C05B3701527711C007D7C7E /* PratosFrios */,
+				3C05B36F15277108007D7C7E /* PratosQuentes */,
+				3C05B35815276EC3007D7C7E /* EduAppDelegate.h */,
+				3C05B37115277188007D7C7E /* PratosQuentesTableCell */,
+				3C05B35915276EC3007D7C7E /* EduAppDelegate.m */,
+				3C05B35B15276EC3007D7C7E /* MainStoryboard.storyboard */,
+				3C05B36C152770AA007D7C7E /* SobremesasViewController.h */,
+				3C05B36D152770AA007D7C7E /* SobremesasViewController.m */,
+				3C05B35E15276EC3007D7C7E /* EduViewController.h */,
+				3C05B35F15276EC3007D7C7E /* EduViewController.m */,
+				3C05B35015276EC3007D7C7E /* Supporting Files */,
+				3C05B3751527725D007D7C7E /* Prato.h */,
+				3C05B3761527725D007D7C7E /* Prato.m */,
+				3C05B37B15277887007D7C7E /* PratoDetalhe */,
+			);
+			path = Receitas;
+			sourceTree = "<group>";
+		};
+		3C05B35015276EC3007D7C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B35115276EC3007D7C7E /* Receitas-Info.plist */,
+				3C05B35215276EC3007D7C7E /* InfoPlist.strings */,
+				3C05B35515276EC3007D7C7E /* main.m */,
+				3C05B35715276EC3007D7C7E /* Receitas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C05B36F15277108007D7C7E /* PratosQuentes */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B3661527707A007D7C7E /* PratosQuentesViewController.h */,
+				3C05B3671527707A007D7C7E /* PratosQuentesViewController.m */,
+			);
+			name = PratosQuentes;
+			sourceTree = "<group>";
+		};
+		3C05B3701527711C007D7C7E /* PratosFrios */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B36915277087007D7C7E /* PratosFriosViewController.h */,
+				3C05B36A15277087007D7C7E /* PratosFriosViewController.m */,
+			);
+			name = PratosFrios;
+			sourceTree = "<group>";
+		};
+		3C05B37115277188007D7C7E /* PratosQuentesTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B372152771C8007D7C7E /* PratosQuentesTableCellController.h */,
+				3C05B373152771C8007D7C7E /* PratosQuentesTableCellController.m */,
+			);
+			name = PratosQuentesTableCell;
+			sourceTree = "<group>";
+		};
+		3C05B37B15277887007D7C7E /* PratoDetalhe */ = {
+			isa = PBXGroup;
+			children = (
+				3C05B37C15277939007D7C7E /* DetalhePratoViewController.h */,
+				3C05B37D15277939007D7C7E /* DetalhePratoViewController.m */,
+				3C05B37E15277939007D7C7E /* DetalhePratoViewController.xib */,
+			);
+			name = PratoDetalhe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C05B34415276EC3007D7C7E /* Receitas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C05B36315276EC3007D7C7E /* Build configuration list for PBXNativeTarget "Receitas" */;
+			buildPhases = (
+				3C05B34115276EC3007D7C7E /* Sources */,
+				3C05B34215276EC3007D7C7E /* Frameworks */,
+				3C05B34315276EC3007D7C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Receitas;
+			productName = Receitas;
+			productReference = 3C05B34515276EC3007D7C7E /* Receitas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C05B33C15276EC3007D7C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edu;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "i2 Mobile Solutions";
+			};
+			buildConfigurationList = 3C05B33F15276EC3007D7C7E /* Build configuration list for PBXProject "Receitas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C05B33A15276EC3007D7C7E;
+			productRefGroup = 3C05B34615276EC3007D7C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C05B34415276EC3007D7C7E /* Receitas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C05B34315276EC3007D7C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C05B35415276EC3007D7C7E /* InfoPlist.strings in Resources */,
+				3C05B35D15276EC3007D7C7E /* MainStoryboard.storyboard in Resources */,
+				3C05B38015277939007D7C7E /* DetalhePratoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C05B34115276EC3007D7C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C05B35615276EC3007D7C7E /* main.m in Sources */,
+				3C05B35A15276EC3007D7C7E /* EduAppDelegate.m in Sources */,
+				3C05B36015276EC3007D7C7E /* EduViewController.m in Sources */,
+				3C05B3681527707A007D7C7E /* PratosQuentesViewController.m in Sources */,
+				3C05B36B15277087007D7C7E /* PratosFriosViewController.m in Sources */,
+				3C05B36E152770AA007D7C7E /* SobremesasViewController.m in Sources */,
+				3C05B374152771C8007D7C7E /* PratosQuentesTableCellController.m in Sources */,
+				3C05B3771527725D007D7C7E /* Prato.m in Sources */,
+				3C05B37F15277939007D7C7E /* DetalhePratoViewController.m in Sources */,
+				3C05B38315278594007D7C7E /* AdicionarPratoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C05B35215276EC3007D7C7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C05B35315276EC3007D7C7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C05B35B15276EC3007D7C7E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C05B35C15276EC3007D7C7E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C05B36115276EC3007D7C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C05B36215276EC3007D7C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C05B36415276EC3007D7C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Receitas/Receitas-Prefix.pch";
+				INFOPLIST_FILE = "Receitas/Receitas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C05B36515276EC3007D7C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Receitas/Receitas-Prefix.pch";
+				INFOPLIST_FILE = "Receitas/Receitas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C05B33F15276EC3007D7C7E /* Build configuration list for PBXProject "Receitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C05B36115276EC3007D7C7E /* Debug */,
+				3C05B36215276EC3007D7C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C05B36315276EC3007D7C7E /* Build configuration list for PBXNativeTarget "Receitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C05B36415276EC3007D7C7E /* Debug */,
+				3C05B36515276EC3007D7C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C05B33C15276EC3007D7C7E /* Project object */;
+}
